@@ -9,6 +9,32 @@ h1 {
   text-align: center;
 }
 fieldset {
+  flex-wrap: wrap;
   width: 80%;
   background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .ime {
+    width: 40%;
+  }
+  .prezime {
+    width: 40%;
+  }
+  .spec {
+    width: 40%;
+  }
+  .kanc {
+    width: 40%;
+  }
+  .radnoVreme {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+  }
+  .buttons {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  }
 }

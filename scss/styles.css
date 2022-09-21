@@ -11,8 +11,34 @@ h1 {
 }
 
 fieldset {
+  flex-wrap: wrap;
   width: 80%;
   background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+fieldset .ime {
+  width: 40%;
+}
+fieldset .prezime {
+  width: 40%;
+}
+fieldset .spec {
+  width: 40%;
+}
+fieldset .kanc {
+  width: 40%;
+}
+fieldset .radnoVreme {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+fieldset .buttons {
+  display: flex;
+  justify-content: end;
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
